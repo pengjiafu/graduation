@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>用户管理-毕业设计（论文）网上选题系统</title>
+  <meta name="description" content="这是一个 index 页面">
+  <meta name="keywords" content="index">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <link rel="icon" type="image/png" href="../assets/i/favicon.png">
+  <link rel="apple-touch-icon-precomposed" href="../assets/i/app-icon72x72@2x.png">
+  <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+  <script src="../assets/js/echarts.min.js"></script>
+  <link rel="stylesheet" href="../assets/css/amazeui.min.css" />
+  <link rel="stylesheet" href="../assets/css/amazeui.datatables.min.css" />
+  <link rel="stylesheet" href="../assets/css/app.css">
+  <script src="../assets/js/jquery.min.js"></script>
+</head>
+
+<body data-type="studentPaper" data-user-type="student" class="theme-white">
+  <div class="am-g tpl-g">
+    <!-- 头部 -->
+    <div id="app-header"></div>
+    <!-- 侧边导航栏 -->
+    <div id="app-nav"></div>
+    <!-- 内容区域 -->
+    <div class="tpl-content-wrapper">
+      <div class="row-content am-cf">
+        <div class="row">
+          <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+            <div class="widget am-cf">
+              <div class="widget-head am-cf">
+                <div class="widget-title  am-cf">xxx的选题</div>
+              </div>
+              <div class="widget-body  am-fr">
+                <div class="am-u-sm-12">
+                  <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black " style="text-align:center;">
+                    <thead>
+                      <tr>
+                        <th>ID</th>
+                        <th>题目</th>
+                        <th>志愿</th>
+                        <th>状态</th>
+                        <th>操作</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="gradeX">
+                        <td>1</td>
+                        <td>论文题目</td>
+                        <td>第一志愿</td>
+                        <td style="color:green;">等待</td>
+                        <td>
+                          <div class="tpl-table-black-operation">
+                            <a href="../paper/detail.html" target="_blank"><i class="am-icon-eye"></i>选题详细</a>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="gradeX">
+                        <td>2</td>
+                        <td>论文题目</td>
+                        <td>第二志愿</td>
+                        <td style="color:green;">等待</td>
+                        <td>
+                          <div class="tpl-table-black-operation">
+                            <a href="../paper/detail.html" target="_blank"><i class="am-icon-eye"></i>选题详细</a>
+                          </div>
+                        </td>
+                      </tr>
+                      <!-- more data -->
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="am-modal am-modal-confirm" tabindex="-1" id="clean-confirm">
+    <div class="am-modal-dialog">
+      <div class="am-modal-hd">系统提示</div>
+      <div class="am-modal-bd">
+        你确定要清除所有数据吗？清除后将不可以恢复
+      </div>
+      <div class="am-modal-footer">
+        <span class="am-modal-btn" data-am-modal-cancel>取消</span>
+        <span class="am-modal-btn" data-am-modal-confirm>确定</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="../assets/js/amazeui.min.js"></script>
+  <script src="../assets/js/amazeui.datatables.min.js"></script>
+  <script src="../assets/js/dataTables.responsive.min.js"></script>
+  <script src="../assets/js/app.js"></script>
+</body>
+
+</html>

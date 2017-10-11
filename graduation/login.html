@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>用户登录-毕业设计（论文）网上选题系统</title>
+  <meta name="keywords" content="index">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <link rel="icon" type="image/png" href="assets/i/favicon.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+  <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+  <link rel="stylesheet" href="assets/css/amazeui.min.css" />
+  <link rel="stylesheet" href="assets/css/amazeui.datatables.min.css" />
+  <link rel="stylesheet" href="assets/css/app.css">
+  <style>
+  .am-btn-default{border:none;border-bottom:1px #e6e6e6 solid;}
+  .am-dropdown.am-active .am-btn-default.am-dropdown-toggle{background-color:#fff;}
+  </style>
+  <script src="assets/js/jquery.min.js"></script>
+</head>
+<body data-type="login" class="theme-white">
+  <div class="am-g tpl-g">
+    <div class="tpl-login">
+      <div class="tpl-login-content">
+        <div class="tpl-login-logo">
+        </div>
+        <form class="am-form tpl-form-line-form">
+          <div class="am-form-group">
+            <input type="text" class="tpl-form-input" id="user-name" placeholder="请输入账号">
+          </div>
+          <div class="am-form-group">
+            <input type="password" class="tpl-form-input" id="user-name" placeholder="请输入密码">
+          </div>
+          <div class="am-form-group">
+            <select name="userType" data-am-selected="{searchBox: 0}" style="display: none;width:100%;">
+              <option value="student">学生</option>
+              <option value="teacher">老师</option>
+              <option value="secretary">秘书</option>
+              <option value="admin">管理员</option>
+            </select>
+          </div>
+          <div class="am-form-group">
+            <button type="button" id="login" class="am-btn am-btn-primary  am-btn-block tpl-btn-bg-color-success  tpl-login-btn">提交</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/amazeui.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>

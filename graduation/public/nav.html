@@ -1,0 +1,40 @@
+<div class="left-sidebar">
+  <!-- 用户信息 -->
+  <div class="tpl-sidebar-user-panel" >
+    <div class="tpl-user-panel-slide-toggleable">
+      <div class="tpl-user-panel-profile-picture">
+        <img src="__PATH__/assets/img/user08.png"  alt="">
+      </div>
+      <span class="user-panel-logged-in-text">
+          <i class="am-icon-circle-o am-text-success tpl-user-panel-status-icon"></i>
+          你的名字
+      </span>
+      <a href="__PATH__/account.html" class="tpl-user-panel-action-link"> <span class="am-icon-pencil"></span> 账号设置</a>
+      <a href="__PATH__/setting.html" class="tpl-user-panel-action-link auth-show" auth-data="admin"> <span class="am-icon-cog"></span>系统设置</a>
+    </div>
+  </div>
+  <!-- 菜单 -->
+  <ul class="sidebar-nav">
+
+    <li class="sidebar-nav-link">
+      <a href="__PATH__/index.html" nav-data="index" >
+            <i class="am-icon-home sidebar-nav-link-logo"></i>系统首页
+        </a>
+    </li>
+    <li class="sidebar-nav-link auth-show" auth-data="admin|secretary">
+      <a href="__PATH__/user/student.html" nav-data="user">
+          <i class="am-icon-table sidebar-nav-link-logo"></i>用户管理
+      </a>
+    </li>
+    <li class="sidebar-nav-link auth-show" auth-data="admin|teacher|secretary">
+      <a href="__PATH__/paper/list.html" nav-data="paper">
+            <i class="am-icon-calendar sidebar-nav-link-logo" ></i>选题管理
+        </a>
+    </li>
+    <li class="sidebar-nav-link auth-show" auth-data="student">
+      <a href="__PATH__/select.html" nav-data="select">
+            <i class="am-icon-wpforms sidebar-nav-link-logo"></i>学生选题
+        </a>
+    </li>
+  </ul>
+</div>
